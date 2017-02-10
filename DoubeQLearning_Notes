@@ -1,0 +1,21 @@
+#Notes on Double Q-Learning
+
+
+Positive bias introduced in Q-learning - since uses maximum action value as an approximation for the maximum expected action value.
+
+Alternative way to approximate the expected action value 
+
+Double estimator - Double Q learning - off policy algorithm 
+- Can perform well in some settings where Q-learning performs poorly due to over estimation.
+
+
+
+**** Convergence of Q-learning is dependent on the learning rate and exploration policy (since off-policy algorithm)
+
+An important aspect of the Q-learning algorithm has been overlooked in previous
+work: the use of the max operator to determine the value of the next state can cause large overestimations
+of the action values
+
+The double estimator method uses two estimates for each variable and uncouples
+the selection of an estimator and its value.
+
